@@ -1,17 +1,21 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>DellaChiesa.us — Projects by Jarrod DellaChiesa</title>
 <style>
-:root{--bg:#0f172a;--card:#1e293b;--fg:#e2e8f0;--mute:#94a3b8;--acc:#38bdf8}
-*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:linear-gradient(160deg,#0f172a,#1e1b4b);color:var(--fg);min-height:100vh}
-header{text-align:center;padding:4rem 1rem 2rem}h1{margin:0;font-size:clamp(2rem,6vw,3.2rem)}header p{color:var(--mute);margin:.6rem 0 0}
-main{max-width:1100px;margin:0 auto;padding:1rem 1.25rem 4rem;display:grid;gap:1.25rem;grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
-a.card,div.card{display:block;background:var(--card);border:1px solid #334155;border-radius:16px;padding:1.5rem;text-decoration:none;color:inherit;transition:.2s}
-a.card:hover{transform:translateY(-4px);border-color:var(--acc);box-shadow:0 10px 30px #0006}
-.e{font-size:2.4rem;line-height:48px;height:48px}.ic{width:48px;height:48px;border-radius:12px;display:block;object-fit:cover}h2{margin:.5rem 0 .4rem;font-size:1.25rem}.hd{display:flex;align-items:center;gap:.8rem;margin-bottom:.6rem}.hd h2{margin:0}.ic,.e{flex:none}.card p{color:var(--mute);margin:0 0 1rem;line-height:1.45}
-.go{color:var(--acc);font-weight:600;font-size:.9rem}.missing{opacity:.6}.missing .go{color:#f87171}
-footer{text-align:center;color:var(--mute);padding:2rem;font-size:.85rem}
-</style></head><body>
-<header><h1>DellaChiesa.us</h1><p>A few things I've built — Jarrod DellaChiesa</p></header>
+:root{--bg:#1f3d27;--card:#f4ecd8;--fg:#2b1d10;--mute:#5e4b35;--acc:#7a4a21;--sign:#5b3a1e;--cream:#e9dcc0}
+*{box-sizing:border-box}body{margin:0;font-family:Georgia,'Times New Roman',serif;background:#22402b;color:var(--fg);min-height:100vh}
+header{position:relative;text-align:center;color:var(--cream);padding:3rem 1rem 7rem;background:linear-gradient(#cfe3e8,#f3d9a8 60%,#e8b77a);overflow:hidden}
+header::after{content:"";position:absolute;left:0;right:0;bottom:0;height:120px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath d='M0 120V70l120-50 110 60 140-70 160 80 120-40 150 60 140-70 130 50 130-40v130z' fill='%235f7f6a'/%3E%3Cpath d='M0 120V95l80-25 60 20 70-30 80 35 90-28 100 30 90-35 110 38 100-30 120 30 110-25 100 20 90-15v40z' fill='%2322402b'/%3E%3C/svg%3E") bottom/100% 100% no-repeat}
+.brand{display:inline-flex;align-items:center;gap:1rem;background:var(--sign);border:4px solid var(--cream);border-radius:10px;padding:.8rem 1.6rem;box-shadow:0 8px 24px #0005}
+.brand img{width:64px;height:auto}h1{margin:0;font-size:clamp(1.8rem,5vw,2.8rem);letter-spacing:.04em;text-transform:uppercase}
+header p{margin:.7rem 0 0;font-style:italic;color:var(--sign);font-weight:bold}
+main{max-width:1100px;margin:0 auto;padding:1.5rem 1.25rem 4rem;display:grid;gap:1.25rem;grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+a.card,div.card{display:block;background:var(--card);border:3px solid var(--sign);border-radius:10px;padding:1.4rem;text-decoration:none;color:inherit;transition:.2s;box-shadow:0 4px 0 var(--sign)}
+a.card:hover{transform:translateY(-4px);box-shadow:0 10px 0 var(--sign),0 14px 30px #0006}
+.e{font-size:2.4rem;line-height:48px;height:48px}.ic{width:48px;height:48px;border-radius:50%;border:2px solid var(--sign);display:block;object-fit:cover}h2{margin:.5rem 0 .4rem;font-size:1.25rem;color:var(--sign)}.hd{display:flex;align-items:center;gap:.8rem;margin-bottom:.6rem}.hd h2{margin:0}.ic,.e{flex:none}.card p{color:var(--mute);margin:0 0 1rem;line-height:1.45}
+.go{display:inline-block;background:#2f5d3a;color:var(--cream);font-weight:600;font-size:.85rem;padding:.35rem .8rem;border-radius:6px;letter-spacing:.05em;text-transform:uppercase}
+footer{text-align:center;color:var(--cream);padding:2rem;font-size:.85rem;opacity:.8}
+</style><link rel="icon" href="logo.svg"></head><body>
+<header><div class="brand"><img src="logo.svg" alt="DellaChiesa.us badge"><h1>DellaChiesa.us</h1></div><p>A few things I've built: Jarrod DellaChiesa</p></header>
 <main>
 <a class="card" href="https://stanfordtheatre.dellachiesa.us/"><div class="hd"><img class="ic" src="icons/stanford.png" alt="" width="48" height="48"><h2>Stanford Theatre</h2></div><p>What's now showing at Palo Alto's classic movie palace.</p><span class="go">Visit →</span></a>
 <a class="card" href="https://jarroddellachiesa.github.io/princess-patter/"><div class="hd"><img class="ic" src="icons/patter.png" alt="" width="48" height="48"><h2>Princess Patter</h2></div><p>The daily Princess Cruises onboard newsletter, online.</p><span class="go">Visit →</span></a>
